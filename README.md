@@ -1,6 +1,6 @@
 # 🎯 MERN Goal Setter
 
-> Personal goal tracker with JWT auth — React + Redux Toolkit + Node + MongoDB.
+> Personal goal tracker with JWT auth. Built with React, Redux Toolkit, Node and MongoDB.
 
 ![React](https://img.shields.io/badge/React-17-61DAFB?logo=react&logoColor=white)
 ![Redux Toolkit](https://img.shields.io/badge/Redux_Toolkit-1.7-764ABC?logo=redux&logoColor=white)
@@ -8,24 +8,24 @@
 ![MongoDB](https://img.shields.io/badge/MongoDB-Mongoose-47A248?logo=mongodb&logoColor=white)
 ![JWT](https://img.shields.io/badge/Auth-JWT-000000?logo=jsonwebtokens&logoColor=white)
 
-A small full-stack MERN app where authenticated users can register, log in, and manage a private list of personal goals. Built in 2022 as a learning project covering the full Redux Toolkit + Express + JWT flow end-to-end.
+A small full-stack MERN app where authenticated users can register, log in, and manage a private list of personal goals. Built in 2022 as a learning project to go through the full Redux Toolkit + Express + JWT flow.
 
 ## ✨ Features
 
-- **JWT authentication** — register / login with hashed passwords (`bcryptjs`) and `Bearer` token sessions
-- **Protected goal CRUD** — create, read, update, and delete goals scoped to the logged-in user
-- **Redux Toolkit** — `authSlice` and `goalSlice` driving all client state via `createAsyncThunk`
-- **Protected routes** on the React side with redirects for unauthenticated users
-- **Toast notifications** via `react-toastify` for auth and CRUD feedback
-- **Centralized Express error handler** with `express-async-handler`
+- **JWT authentication**: register / login with hashed passwords (`bcryptjs`) and `Bearer` token sessions
+- **Protected goal CRUD**: create, read, update, and delete goals scoped to the logged-in user
+- **Redux Toolkit**: `authSlice` and `goalSlice` hold all client state via `createAsyncThunk`
+- Protected routes on the React side with redirects for unauthenticated users
+- Toast notifications via `react-toastify` for auth and CRUD feedback
+- Centralized Express error handler with `express-async-handler`
 
 ## 🛠️ Tech Stack
 
-- **Frontend** — React 17, Redux Toolkit, React Router v6, Axios, react-toastify
-- **Backend** — Node.js, Express
-- **Database** — MongoDB via Mongoose
-- **Auth** — JWT (`jsonwebtoken`) + `bcryptjs`
-- **Dev tooling** — `nodemon`, `concurrently`
+- **Frontend**: React 17, Redux Toolkit, React Router v6, Axios, react-toastify
+- **Backend**: Node.js, Express
+- **Database**: MongoDB via Mongoose
+- **Auth**: JWT (`jsonwebtoken`) + `bcryptjs`
+- **Dev tooling**: `nodemon`, `concurrently`
 
 ## 📁 Project Structure
 
